@@ -46,5 +46,8 @@ describe('angularjs homepage', function(){
      var lcount=await element.all(by.css('div.content > p:nth-child(6)>a')).count();
      console.log('number of links'+'='+lcount);
 
+     console.log('change1')
+
+
     })
 })

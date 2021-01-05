@@ -45,12 +45,6 @@ describe('angularjs homepage', function() {
      //singleton services
      element(by.css('div:nth-child(4) > ul.priority-pages > li:nth-child(1) > a > span')).click();
 
-     //var url=browser.getCurrentUrl();
-
-     //expect(browser.getCurrentUrl()).toEqual('singleton-services');
-
-     //console.log(await browser.getCurrentUrl());
-
      var url=browser.executeScript("return window.location.href.split('/')[window.location.href.split('/').length -1];")
 
      expect(url).toEqual('singleton-services');
