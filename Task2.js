@@ -10,6 +10,7 @@ describe('angularjs homepage', function() {
       var a2=await element(by.css('a[title="Features."]>span')).getText();
        expect(a2).toEqual('FEATURES');
       console.log(a2);
+      console.log('change2')
 
       
       var b=await element(by.css('a.button')).getText();
