@@ -11,6 +11,8 @@ describe('angularjs homepage', function() {
        expect(a2).toEqual('FEATURES');
       console.log(a2);
       console.log('vigneshsekar')
+      console.log('change2')
+
       
       var b=await element(by.css('a.button')).getText();
       expect(b).toEqual('GET STARTED');
